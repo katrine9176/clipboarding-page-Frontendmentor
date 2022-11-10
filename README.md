@@ -28,7 +28,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Solution URL here](https://github.com/katrine9176/clipboarding-page-Frontendmentor)
-- Live Site URL: [Live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Live site URL here](https://katrine9176.github.io/clipboarding-page-Frontendmentor/)
 
 ## My process
 
