@@ -10,13 +10,7 @@ This is a solution to the [Clipboard landing page challenge on Frontend Mentor](
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -29,11 +23,11 @@ Users should be able to:
 
 ### Screenshot
 
-![Desktop view of solution](./screenshots/Screenshot%202022-11-10%20at%2020-51-02%20Frontend%20Mentor%20Clipboard%20landing%20page.png)
+![Desktop view of solution](./screenshots/Screenshot%202022-11-10%20at%2021-11-51%20Frontend%20Mentor%20Clipboard%20landing%20page.png)
 
 ### Links
 
-- Solution URL: [Solution URL here](https://your-solution-url.com)
+- Solution URL: [Solution URL here](https://github.com/katrine9176/clipboarding-page-Frontendmentor)
 - Live Site URL: [Live site URL here](https://your-live-site-url.com)
 
 ## My process

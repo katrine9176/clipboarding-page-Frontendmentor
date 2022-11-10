@@ -224,6 +224,8 @@ body {
 	}
 
 	&__socials {
+		display: flex;
+		flex-direction: row;
 		margin: 3em;
 
 		a {

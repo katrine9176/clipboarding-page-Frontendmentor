@@ -178,6 +178,8 @@ body {
   color: hsl(171deg, 66%, 44%);
 }
 .footer__socials {
+  display: flex;
+  flex-direction: row;
   margin: 3em;
 }
 .footer__socials a {
@@ -361,6 +363,6 @@ body {
     width: 200px;
   }
   .footer__socials {
-    margin-left: 30em;
+    margin-left: 11em;
   }
 }/*# sourceMappingURL=style.css.map */
