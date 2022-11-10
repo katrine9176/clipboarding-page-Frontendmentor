@@ -1,0 +1,193 @@
+@media (min-width: 992px) {
+	//header
+	.header {
+		&__heading {
+			font-size: 5rem;
+		}
+
+		&__paragraph {
+			font-size: 2rem;
+		}
+
+		&__btns {
+			flex-direction: row;
+			justify-content: center;
+		}
+	}
+
+	//main&sections
+	.main {
+		.snippets {
+			&__img {
+				height: 400px;
+			}
+		}
+
+		.workflow {
+			&__cards {
+				display: flex;
+				flex-direction: row;
+
+				&-card {
+					&-head {
+						font-size: 2.6rem;
+						&--first {
+							margin-top: 0.8em;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	//footer 
+	.footer {
+		padding-bottom: 2em;
+		
+		.container {
+			position: relative;
+			flex-direction: row;
+		}
+
+		&__logo {
+			margin-left: 3em;
+		}
+
+		&__links {
+			&-box {
+				margin-top: 1em;
+				display: flex;
+				text-align: left;
+				flex-direction: column;
+
+				a {
+					margin-top: 1em;
+				}
+			}
+		}
+
+		&__socials {
+			margin-left: 10em;
+		}
+
+		&__attribution {
+			position: absolute;
+			bottom: 20px;
+			right: 2em;
+		}
+	}
+}
+
+@media (min-width: 1200px) {
+	//main&sections
+	.main {
+		.snippets {
+			position: relative;
+
+			&__img {
+				position: absolute;
+				top: 200px;
+				left: -40%;
+				height: auto;
+			}
+
+			&__info {
+				position: absolute;
+				top: 250px;
+				right: -100px;
+				width: 450px;
+				text-align: left;
+			}
+		}
+
+		.clipboard {
+			margin-top: 800px;
+
+			&__img {
+				height: 400px;
+			}
+		}
+
+		.workflow {
+			&__cards {
+				width: 900px;
+			}
+		}
+	}
+
+	//aside
+	.aside {
+		&__heading {
+			font-size: 3.5rem;
+		}
+	}
+}
+
+@media (min-width: 1400px) {
+	//main&sections
+	.main {
+		.snippets {
+			&__img {
+				left: -65%;
+			}
+			&__info {
+				right: -10px;
+			}
+		}
+
+		.clipboard {
+			&__img {
+				height: auto;
+			}
+		}
+
+		.workflow {
+			.container {
+				max-width: 1400px;
+			}
+
+			&__cards {
+				margin: 5em auto;
+				justify-content: space-evenly;
+
+				&-card {
+					margin: 0 3em;
+
+					&-head {
+						width: 300px;
+					}
+
+					&-paragraph {
+						width: 370px;
+					}
+				}
+			}
+
+			&__companies {
+				&-company {
+					margin: 3em;
+				}
+			}
+		}
+	}
+
+	//footer
+	.footer {
+		&__logo {
+			margin-left: 4em;
+		}
+
+		&__links {
+			margin-left: 5em;
+			
+			&-box {
+				margin-left: 2em;
+				width: 200px;
+			}
+		}
+
+		&__socials {
+			margin-left: 30em;
+		}
+	}
+}

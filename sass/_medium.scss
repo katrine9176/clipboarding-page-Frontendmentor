@@ -1,0 +1,88 @@
+@media (min-width: 576px) {
+	//header
+	.header {
+		background-image: url('../images/bg-header-desktop.png');
+		background-size: contain;
+		background-repeat: no-repeat;
+
+		&__paragraph {
+			font-size: 1.8rem;
+		}
+	}
+
+	//main&sections
+	.main {
+		.section {
+			&__heading {
+				font-size: 3rem;
+			}
+
+			&__paragraph {
+				font-size: 1.8rem;
+			}
+		}
+
+		.workflow {
+			&__companies {
+				display: flex;
+				flex-direction: row;
+				flex-wrap: wrap;
+				justify-content: center;
+
+				&-company {
+					margin: 2em;
+				}
+			}
+		}
+	}
+}
+
+@media (min-width: 768px) {
+	//header 
+    .header {
+		&__heading {
+			font-size: 4.5rem;
+        }
+    }
+	
+    //main&sections 
+    .main {
+		.section {
+			&__heading {
+				font-size: 3.5rem;
+            }
+			
+        }
+		
+		.snippets {
+			&__info {
+				&-head {
+					font-size: 2.7rem;
+				}
+			}
+		}
+		
+		.workflow {
+			&__cards {
+				&-card {
+					margin: 3em;
+					
+					&-head {
+						font-size: 2.5rem;
+					}
+				}
+			}
+		}
+    }
+	
+		//footer 
+		.footer {
+			&__links {
+				flex-direction: row;
+
+				a {
+					margin: 1em;
+				}
+			} 
+		}
+}

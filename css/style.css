@@ -1,0 +1,366 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Bai Jamjuree", sans-serif;
+  font-size: 1.7rem;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  text-align: center;
+  background-image: url("../images/bg-header-mobile.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.header__img {
+  margin: 3.5em;
+}
+.header__heading {
+  margin: 0.3em;
+  font-size: 3.5rem;
+  color: hsl(210deg, 10%, 33%);
+}
+.header__paragraph {
+  margin: 1em 0.7em;
+  color: hsl(201deg, 11%, 66%);
+}
+.header__btns {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.header__btns-btn {
+  margin: 1em;
+  width: 250px;
+  height: 45px;
+  font-size: 1.5rem;
+  font-family: "Bai Jamjuree", sans-serif;
+  font-weight: bold;
+  color: hsl(0deg, 0%, 100%);
+  border: none;
+  border-radius: 20px;
+  transition: background-color 0.3s;
+}
+.header__btns-btn:hover {
+  cursor: pointer;
+}
+.header__btns-btn--first {
+  background-color: hsl(171deg, 66%, 44%);
+  box-shadow: 0 5px 10px hsl(171deg, 30%, 58%);
+}
+.header__btns-btn--first:hover {
+  background-color: hsl(171deg, 30%, 58%);
+}
+.header__btns-btn--second {
+  background-color: hsl(233deg, 100%, 69%);
+  box-shadow: 0 5px 10px hsl(233deg, 100%, 80%);
+}
+.header__btns-btn--second:hover {
+  background-color: hsl(233deg, 100%, 80%);
+}
+
+.main {
+  margin-top: 6em;
+}
+.main .section {
+  margin: 4em 0.5em;
+  text-align: center;
+}
+.main .section__heading {
+  font-size: 2.7rem;
+  color: hsl(210deg, 10%, 33%);
+}
+.main .section__paragraph {
+  margin: 1em;
+  color: hsl(201deg, 11%, 66%);
+}
+.main .snippets__img {
+  margin: 2em auto;
+  height: 230px;
+}
+.main .snippets__info-head {
+  margin-top: 2em;
+  font-size: 2.2rem;
+  color: hsl(210deg, 10%, 33%);
+}
+.main .snippets__info-paragraph {
+  margin: 0.5em;
+  color: hsl(201deg, 11%, 66%);
+}
+.main .clipboard {
+  margin-top: 8em;
+}
+.main .clipboard__img {
+  margin: 2em auto;
+  height: 190px;
+}
+.main .workflow__cards {
+  margin-bottom: 8em;
+}
+.main .workflow__cards-card {
+  margin: 3em 1em;
+}
+.main .workflow__cards-card-head {
+  margin: 1em;
+  font-size: 2rem;
+  color: hsl(210deg, 10%, 33%);
+}
+.main .workflow__cards-card-paragraph {
+  color: hsl(201deg, 11%, 66%);
+}
+.main .workflow__companies-company {
+  margin-top: 3em;
+}
+
+.aside {
+  margin: 2em;
+  margin-top: 7em;
+  margin-bottom: 7em;
+  text-align: center;
+}
+.aside .container {
+  max-width: 900px;
+}
+.aside__heading {
+  font-size: 3rem;
+  color: hsl(210deg, 10%, 33%);
+}
+.aside__paragraph {
+  margin: 1em;
+  color: hsl(201deg, 11%, 66%);
+}
+
+.footer {
+  background-color: hsl(220deg, 18%, 97%);
+  padding-bottom: 3em;
+}
+.footer .container {
+  max-width: 1400px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+.footer__logo {
+  margin: 3em;
+  height: 70px;
+  width: 70px;
+}
+.footer__links {
+  display: flex;
+  flex-direction: column;
+}
+.footer__links-box {
+  display: flex;
+  flex-direction: column;
+}
+.footer__links-box a {
+  margin-top: 1.5em;
+  font-size: 1.8rem;
+  text-decoration: none;
+  color: hsl(210deg, 10%, 33%);
+  transition: color 0.3s;
+}
+.footer__links-box a:hover {
+  color: hsl(171deg, 66%, 44%);
+}
+.footer__socials {
+  margin: 3em;
+}
+.footer__socials a {
+  margin: 1em;
+}
+.footer__attribution {
+  font-size: 1.1rem;
+  text-align: center;
+}
+.footer__attribution a {
+  color: hsl(228deg, 45%, 44%);
+}
+
+@media (min-width: 576px) {
+  .header {
+    background-image: url("../images/bg-header-desktop.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .header__paragraph {
+    font-size: 1.8rem;
+  }
+  .main .section__heading {
+    font-size: 3rem;
+  }
+  .main .section__paragraph {
+    font-size: 1.8rem;
+  }
+  .main .workflow__companies {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .main .workflow__companies-company {
+    margin: 2em;
+  }
+}
+@media (min-width: 768px) {
+  .header__heading {
+    font-size: 4.5rem;
+  }
+  .main .section__heading {
+    font-size: 3.5rem;
+  }
+  .main .snippets__info-head {
+    font-size: 2.7rem;
+  }
+  .main .workflow__cards-card {
+    margin: 3em;
+  }
+  .main .workflow__cards-card-head {
+    font-size: 2.5rem;
+  }
+  .footer__links {
+    flex-direction: row;
+  }
+  .footer__links a {
+    margin: 1em;
+  }
+}
+@media (min-width: 992px) {
+  .header__heading {
+    font-size: 5rem;
+  }
+  .header__paragraph {
+    font-size: 2rem;
+  }
+  .header__btns {
+    flex-direction: row;
+    justify-content: center;
+  }
+  .main .snippets__img {
+    height: 400px;
+  }
+  .main .workflow__cards {
+    display: flex;
+    flex-direction: row;
+  }
+  .main .workflow__cards-card-head {
+    font-size: 2.6rem;
+  }
+  .main .workflow__cards-card-head--first {
+    margin-top: 0.8em;
+  }
+  .footer {
+    padding-bottom: 2em;
+  }
+  .footer .container {
+    position: relative;
+    flex-direction: row;
+  }
+  .footer__logo {
+    margin-left: 3em;
+  }
+  .footer__links-box {
+    margin-top: 1em;
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+  }
+  .footer__links-box a {
+    margin-top: 1em;
+  }
+  .footer__socials {
+    margin-left: 10em;
+  }
+  .footer__attribution {
+    position: absolute;
+    bottom: 20px;
+    right: 2em;
+  }
+}
+@media (min-width: 1200px) {
+  .main .snippets {
+    position: relative;
+  }
+  .main .snippets__img {
+    position: absolute;
+    top: 200px;
+    left: -40%;
+    height: auto;
+  }
+  .main .snippets__info {
+    position: absolute;
+    top: 250px;
+    right: -100px;
+    width: 450px;
+    text-align: left;
+  }
+  .main .clipboard {
+    margin-top: 800px;
+  }
+  .main .clipboard__img {
+    height: 400px;
+  }
+  .main .workflow__cards {
+    width: 900px;
+  }
+  .aside__heading {
+    font-size: 3.5rem;
+  }
+}
+@media (min-width: 1400px) {
+  .main .snippets__img {
+    left: -65%;
+  }
+  .main .snippets__info {
+    right: -10px;
+  }
+  .main .clipboard__img {
+    height: auto;
+  }
+  .main .workflow .container {
+    max-width: 1400px;
+  }
+  .main .workflow__cards {
+    margin: 5em auto;
+    justify-content: space-evenly;
+  }
+  .main .workflow__cards-card {
+    margin: 0 3em;
+  }
+  .main .workflow__cards-card-head {
+    width: 300px;
+  }
+  .main .workflow__cards-card-paragraph {
+    width: 370px;
+  }
+  .main .workflow__companies-company {
+    margin: 3em;
+  }
+  .footer__logo {
+    margin-left: 4em;
+  }
+  .footer__links {
+    margin-left: 5em;
+  }
+  .footer__links-box {
+    margin-left: 2em;
+    width: 200px;
+  }
+  .footer__socials {
+    margin-left: 30em;
+  }
+}/*# sourceMappingURL=style.css.map */
